@@ -16,13 +16,17 @@ film out of it. Shameless self-promotion, but in my defence it was the machine's
 
 ![a film about JC Builds](docs/jc-builds.gif)
 
-*Full film: [`docs/jc-builds.mp4`](docs/jc-builds.mp4) · 43s · that's me, [@jc_builds](https://twitter.com/jc_builds) 👋*
+*Full film: [`docs/jc-builds.mp4`](docs/jc-builds.mp4) · 52s · that's me, [@jc_builds](https://twitter.com/jc_builds) 👋*
 
-It found the actual through-line on its own — that almost every "AI app" is a thin
-wrapper around someone else's server, and I keep shipping the opposite. Then it built the
-whole film around that one reversal: the 4,096-token model planning a trip with no API
-calls, the coding agent that writes Swift on-device and repairs its own errors, the photo
-library matched against 164 landmarks. I didn't feed it any of those facts.
+Note that the opening line never says who it's about. That's the skill's hook rule at
+work: withhold the subject, pose a question the viewer needs answered, and don't settle it
+until the final line. Here the question is *why would anyone forbid their own AI from
+reaching the internet* — and the last beat answers exactly that.
+
+It found the through-line on its own, too: almost every "AI app" is a thin wrapper around
+someone else's server, and I keep shipping the opposite. The 4,096-token model planning a
+trip with no API calls, the coding agent that writes Swift on-device and repairs its own
+errors, the photo library matched against 164 landmarks. I didn't feed it any of that.
 
 ---
 

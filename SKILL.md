@@ -34,14 +34,70 @@ opposite of what the viewer assumes. Tokyo was the largest city on earth before 
 The Colosseum's missing wall was carried away by hand. Someone invented infinite scroll
 and regrets it.
 
+### The hook, and the debt it creates
+
+**Every script opens on a hook that stays unresolved until the last line.** A hook is not
+a summary and not a teaser — it is a debt the film owes the viewer, and the final line is
+where it gets paid.
+
+Two rules, and both are required. Either one alone produces a worse film than no hook.
+
+**1. Withhold the subject.** No proper nouns in the hook: no country, no city, no person,
+no year. Replace them — "this country", "the man in charge", "one developer". After the
+first line the viewer must not be able to tell what the film is about. That uncertainty is
+the thing keeping them there.
+
+**2. Pose a real question.** Hiding a name is not enough. The hook has to state something
+contradictory, or plainly wrong, that demands an explanation: a number that cannot be
+right, a person punished for something they could not have done, a country doing the exact
+opposite of what you would expect. **Then the last line of the film answers that exact
+question.** If the only reveal is "it was London", the viewer feels tricked rather than
+paid, and the film reads as clickbait.
+
+Test a draft hook with two questions. *Can the viewer name the subject from it?* If yes,
+rewrite. *Does the closing line answer the question the hook asked?* If not, either the
+hook or the ending is wrong.
+
+#### Worked examples
+
+> "The man in charge was woken up and told the city was burning. He said it was nothing
+> and went back to bed."
+
+The Great Fire of London, 1666. The body runs the four days of the fire and the thirty
+year rebuild. It resolves by returning to that night: the Lord Mayor refused to order
+firebreaks because he did not want to pay for the demolished houses, and by the time he
+was overruled, eighty percent of the city was gone. The hook asks *who was he and why did
+it matter*; the ending answers it.
+
+> "This country had more guns than all of Europe combined. Then it spent two hundred and
+> fifty years pretending it never did."
+
+Japan. The body covers the Tokugawa shogunate sealing the country. It resolves in 1853
+when four American steamships arrive and the pretence collapses overnight, followed by
+Japan industrialising faster than any nation in history. The hook asks *why would anyone
+give that up*; the ending shows what it cost to have done it.
+
+> "The most peaceful era in this nation's history ran entirely on hostages."
+
+The Edo period. The body explains sankin-kotai: every lord forced to alternate years in
+the capital, leaving his family behind when he left. It resolves by showing that the peace
+and the hostage system were the same thing, so when one ended the other did too. The hook
+asks *how can that be true*; the ending makes it make sense.
+
+Note what all three share. The hook is a specific, checkable oddity — not a vague tease —
+and the closing beat lands on the *same* oddity from the other side. The middle of the
+film exists to make the answer earned rather than merely stated.
+
+`references/hook-library.md` holds further opening patterns.
+
 Then shape it:
 
 ```
-hook        one line, under three seconds, concrete
+hook        one line, subject withheld, poses a question (see above)
 setup       the ordinary world the reversal will break
 turn        the surprising fact, landed plainly
 consequence why it changes how you see the thing
-close       reframes the hook, does not summarise
+close       ANSWERS the hook's question, does not summarise
 ```
 
 Beat rules that hold up:
