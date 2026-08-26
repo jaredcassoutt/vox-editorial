@@ -1,0 +1,19 @@
+This skill began as a fork of vox-explainer-skill by Kingsley
+(https://github.com/CK42BB/vox-explainer-skill), MIT licensed.
+
+What remains from that project is its premise: that a single topic prompt can drive a
+complete narrated explainer film, staged as script -> voiceover -> artwork -> animation
+-> assembly, with voiceover generated first because its length is the clock.
+
+Everything in this repository has since been rewritten or newly written:
+
+  * The artwork stage was inverted. Upstream generated a finished composition per beat
+    and animated it; this generates ELEMENTS on a keyable field and composes locally,
+    which is what makes real depth possible.
+  * The multiplane renderer, scene graph, chroma keyer, sprite-sheet prompting, local
+    paper-element factory, kinetic overlays and the reusable sprite library are new.
+  * The provider stack is different (Higgsfield and local neural TTS rather than Atlas
+    Cloud), and the format is vertical short-form rather than 16:9.
+  * All prose in SKILL.md and the reference documents is newly written.
+
+Upstream's own reference documents are not included here.

@@ -1,0 +1,365 @@
+{
+ "components": [
+  {
+   "id": "blank-page-card",
+   "kind": "sprite",
+   "file": "sprites/blank-page-card.png",
+   "tags": [
+    "page",
+    "card",
+    "blank",
+    "web",
+    "paper",
+    "ui"
+   ],
+   "size": [
+    852,
+    699
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "coffee-mug",
+   "kind": "sprite",
+   "file": "sprites/coffee-mug.png",
+   "tags": [
+    "mug",
+    "coffee",
+    "cup",
+    "desk",
+    "steam"
+   ],
+   "size": [
+    567,
+    840
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "crowd-of-figures",
+   "kind": "sprite",
+   "file": "sprites/crowd-of-figures.png",
+   "tags": [
+    "crowd",
+    "people",
+    "figures",
+    "many",
+    "population",
+    "mass"
+   ],
+   "size": [
+    1719,
+    489
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "crt-computer",
+   "kind": "sprite",
+   "file": "sprites/crt-computer.png",
+   "tags": [
+    "computer",
+    "crt",
+    "desktop",
+    "retro",
+    "2000s",
+    "tech"
+   ],
+   "size": [
+    882,
+    1698
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "desk-calendar",
+   "kind": "sprite",
+   "file": "sprites/desk-calendar.png",
+   "tags": [
+    "calendar",
+    "date",
+    "desk",
+    "time"
+   ],
+   "size": [
+    732,
+    765
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "film-strip-scroll",
+   "kind": "sprite",
+   "file": "sprites/film-strip-scroll.png",
+   "tags": [
+    "scroll",
+    "filmstrip",
+    "ribbon",
+    "feed",
+    "endless"
+   ],
+   "size": [
+    729,
+    1626
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "hand-holding-phone",
+   "kind": "sprite",
+   "file": "sprites/hand-holding-phone.png",
+   "tags": [
+    "hand",
+    "phone",
+    "holding",
+    "device"
+   ],
+   "size": [
+    765,
+    1317
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "open-hand-palm-up",
+   "kind": "sprite",
+   "file": "sprites/open-hand-palm-up.png",
+   "tags": [
+    "hand",
+    "open",
+    "palm",
+    "offer",
+    "rest"
+   ],
+   "size": [
+    741,
+    408
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "ornate-picture-frame",
+   "kind": "sprite",
+   "file": "sprites/ornate-picture-frame.png",
+   "tags": [
+    "frame",
+    "picture",
+    "portrait",
+    "empty",
+    "ornate"
+   ],
+   "size": [
+    1284,
+    1476
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "page-with-bar",
+   "kind": "sprite",
+   "file": "sprites/page-with-bar.png",
+   "tags": [
+    "page",
+    "card",
+    "bar",
+    "bottom",
+    "stop",
+    "limit"
+   ],
+   "size": [
+    690,
+    954
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "paper-ribbon",
+   "kind": "sprite",
+   "file": "sprites/paper-ribbon.png",
+   "tags": [
+    "paper",
+    "ribbon",
+    "receipt",
+    "scroll",
+    "unrolled"
+   ],
+   "size": [
+    975,
+    1467
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "pointing-hand",
+   "kind": "sprite",
+   "file": "sprites/pointing-hand.png",
+   "tags": [
+    "hand",
+    "pointing",
+    "finger",
+    "click",
+    "tap"
+   ],
+   "size": [
+    876,
+    441
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "pressing-hand",
+   "kind": "sprite",
+   "file": "sprites/pressing-hand.png",
+   "tags": [
+    "hand",
+    "press",
+    "push",
+    "finger",
+    "down"
+   ],
+   "size": [
+    780,
+    1056
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "question-mark-card",
+   "kind": "sprite",
+   "file": "sprites/question-mark-card.png",
+   "tags": [
+    "question",
+    "card",
+    "page",
+    "ask",
+    "uncertainty"
+   ],
+   "size": [
+    687,
+    822
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "reaching-hand",
+   "kind": "sprite",
+   "file": "sprites/reaching-hand.png",
+   "tags": [
+    "hand",
+    "reaching",
+    "grasp",
+    "fingers"
+   ],
+   "size": [
+    888,
+    1131
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "smartphone",
+   "kind": "sprite",
+   "file": "sprites/smartphone.png",
+   "tags": [
+    "phone",
+    "smartphone",
+    "device",
+    "screen",
+    "app"
+   ],
+   "size": [
+    1083,
+    1416
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "swiping-hand",
+   "kind": "sprite",
+   "file": "sprites/swiping-hand.png",
+   "tags": [
+    "hand",
+    "swipe",
+    "finger",
+    "scroll",
+    "gesture"
+   ],
+   "size": [
+    894,
+    1038
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  },
+  {
+   "id": "torn-page",
+   "kind": "sprite",
+   "file": "sprites/torn-page.png",
+   "tags": [
+    "page",
+    "torn",
+    "ripped",
+    "paper",
+    "ending"
+   ],
+   "size": [
+    696,
+    1167
+   ],
+   "style": "vintage-print illustration, halftone shading, thick white sticker border",
+   "alpha": true,
+   "source": "nano_banana_pro, keyed off a magenta field",
+   "from": "vox-multiplane / infinite-scroll"
+  }
+ ]
+}
