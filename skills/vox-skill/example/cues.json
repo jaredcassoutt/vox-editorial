@@ -1,0 +1,71 @@
+{
+  "scenes": [
+    { "name": "olderThanState", "beats": [1, 2] },
+    { "name": "republic", "beats": [3, 4] },
+    { "name": "petition", "beats": [5] },
+    { "name": "founders", "beats": [6] },
+    { "name": "naming", "beats": [7, 8] },
+    { "name": "signing", "beats": [9] },
+    { "name": "annexation", "beats": [10, 11] },
+    { "name": "closer", "beats": [12], "tail": 34 }
+  ],
+  "cues": {
+    "s1.caption": { "beat": 1, "word": "older", "offset": -10 },
+    "s1.stamp": { "beat": 2, "word": "chartered" },
+    "s1.strike": { "beat": 2, "word": "exists", "offset": 2 },
+
+    "s2.caption": { "beat": 3, "word": "Texas", "offset": -6 },
+    "s2.flagIn": { "beat": 4, "word": "republic", "offset": -42 },
+    "s2.flagOut": { "cue": "s2.flagIn", "offset": 44 },
+    "s2.timeline": { "beat": 4, "word": "Nine", "offset": -13 },
+    "s2.nine": { "beat": 4, "word": "Nine" },
+    "s2.debt": { "beat": 4, "word": "debt", "offset": -8 },
+    "s2.bracket": { "beat": 4, "word": "running" },
+
+    "s3.caption": { "beat": 5, "word": "petition" },
+    "s3.seal": { "beat": 5, "word": "congress" },
+
+    "s4.kicker": { "beat": 6, "word": "three", "offset": -8 },
+    "s4.baylorIn": { "beat": 6, "word": "Robert", "offset": -34 },
+    "s4.baylorOut": { "cue": "s4.baylorIn", "offset": 40 },
+    "s4.baylorPlate": { "beat": 6, "word": "Baylor" },
+    "s4.huckinsIn": { "beat": 6, "word": "James", "offset": -38 },
+    "s4.huckinsOut": { "cue": "s4.huckinsIn", "offset": 40 },
+    "s4.huckinsPlate": { "beat": 6, "word": "Huckins" },
+    "s4.tryonIn": { "beat": 6, "word": "William", "offset": -38 },
+    "s4.tryonOut": { "cue": "s4.tryonIn", "offset": 40 },
+    "s4.tryonPlate": { "beat": 6, "word": "Tryon" },
+
+    "s5.sanJacintoIn": { "beat": 7, "word": "almost", "offset": -14 },
+    "s5.sanJacintoStrike": { "beat": 7, "word": "Jacinto", "offset": 4 },
+    "s5.milamIn": { "beat": 7, "word": "Then", "offset": -14 },
+    "s5.milamStrike": { "beat": 7, "word": "Milam", "offset": 4 },
+    "s5.baylor": { "beat": 8, "word": "judge's", "offset": 4 },
+    "s5.baylorRule": { "cue": "s5.baylor", "offset": 14 },
+    "s5.baylorSub": { "cue": "s5.baylor", "offset": 14 },
+
+    "s6.dateStamp": { "beat": 9, "word": "February", "offset": -4 },
+    "s6.plate": { "beat": 9, "word": "Anson" },
+    "s6.signStart": { "beat": 9, "word": "signed" },
+    "s6.signEnd": { "scene": "signing", "fromEnd": 14 },
+
+    "s7.labelStrike": { "beat": 10, "word": "gone" },
+    "s7.annexStamp": { "beat": 10, "word": "annexed", "offset": -2 },
+    "s7.unionLabel": { "beat": 10, "word": "United" },
+    "s7.actOneOut": { "beat": 11, "start": true, "offset": -14 },
+    "s7.gridIn": { "beat": 11, "word": "chartered", "offset": -12 },
+    "s7.heading": { "beat": 11, "word": "chartered", "offset": -10 },
+    "s7.strikeStart": { "beat": 11, "word": "Fourteen" },
+    "s7.survivor": { "beat": 11, "word": "vanished", "offset": -4 },
+
+    "s8.line1Start": { "beat": 12, "word": "One" },
+    "s8.line1End": { "beat": 12, "word": "given", "offset": 8 },
+    "s8.reveal": { "beat": 12, "word": "Older", "offset": -2 },
+    "s8.rule": { "cue": "s8.reveal", "offset": 12 },
+    "s8.sub": { "cue": "s8.reveal", "offset": 18 },
+    "s8.line2Start": { "beat": 12, "word": "Older" },
+    "s8.line2End": { "beat": 12, "word": "itself", "offset": 10 },
+    "s8.seal": { "cue": "s8.reveal", "offset": 28 },
+    "s8.vignette": { "beat": 12, "word": "itself" }
+  }
+}

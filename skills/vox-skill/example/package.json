@@ -1,0 +1,25 @@
+{
+  "name": "baylor-founding",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render src/index.ts BaylorFoundingSequence out/final.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.397",
+    "@remotion/google-fonts": "4.0.397",
+    "@remotion/shapes": "4.0.397",
+    "@remotion/transitions": "4.0.397",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.397",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "prettier": "3.6.0",
+    "typescript": "5.9.3"
+  }
+}

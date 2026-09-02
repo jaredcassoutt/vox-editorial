@@ -1,0 +1,882 @@
+{
+ "voice": "en-US-AndrewMultilingualNeural",
+ "rate": "+0%",
+ "gap": 0.4,
+ "fps": 30,
+ "totalDuration": 63.8,
+ "totalFrames": 1914,
+ "beats": {
+  "1": {
+   "narration": "This university is older than the state it stands in.",
+   "start": 0.0,
+   "end": 3.432,
+   "duration": 3.432,
+   "startFrame": 0,
+   "endFrame": 103,
+   "frames": 103,
+   "words": [
+    {
+     "w": "This",
+     "t": 0.1,
+     "d": 0.125
+    },
+    {
+     "w": "university",
+     "t": 0.225,
+     "d": 0.775
+    },
+    {
+     "w": "is",
+     "t": 1.25,
+     "d": 0.2375
+    },
+    {
+     "w": "older",
+     "t": 1.5,
+     "d": 0.325
+    },
+    {
+     "w": "than",
+     "t": 1.825,
+     "d": 0.1
+    },
+    {
+     "w": "the",
+     "t": 1.925,
+     "d": 0.075
+    },
+    {
+     "w": "state",
+     "t": 2.0,
+     "d": 0.35
+    },
+    {
+     "w": "it",
+     "t": 2.35,
+     "d": 0.075
+    },
+    {
+     "w": "stands",
+     "t": 2.425,
+     "d": 0.4
+    },
+    {
+     "w": "in",
+     "t": 2.825,
+     "d": 0.25
+    }
+   ]
+  },
+  "2": {
+   "narration": "It was chartered by a country that no longer exists.",
+   "start": 3.832,
+   "end": 7.096,
+   "duration": 3.264,
+   "startFrame": 115,
+   "endFrame": 213,
+   "frames": 98,
+   "words": [
+    {
+     "w": "It",
+     "t": 0.1,
+     "d": 0.075
+    },
+    {
+     "w": "was",
+     "t": 0.175,
+     "d": 0.1
+    },
+    {
+     "w": "chartered",
+     "t": 0.275,
+     "d": 0.3625
+    },
+    {
+     "w": "by",
+     "t": 0.6375,
+     "d": 0.1375
+    },
+    {
+     "w": "a",
+     "t": 0.775,
+     "d": 0.0625
+    },
+    {
+     "w": "country",
+     "t": 0.85,
+     "d": 0.55
+    },
+    {
+     "w": "that",
+     "t": 1.4,
+     "d": 0.15
+    },
+    {
+     "w": "no",
+     "t": 1.55,
+     "d": 0.225
+    },
+    {
+     "w": "longer",
+     "t": 1.775,
+     "d": 0.425
+    },
+    {
+     "w": "exists",
+     "t": 2.2125,
+     "d": 0.675
+    }
+   ]
+  },
+  "3": {
+   "narration": "In eighteen forty-five, Texas was not yet American.",
+   "start": 7.496,
+   "end": 11.192,
+   "duration": 3.696,
+   "startFrame": 225,
+   "endFrame": 336,
+   "frames": 111,
+   "words": [
+    {
+     "w": "In",
+     "t": 0.0875,
+     "d": 0.1
+    },
+    {
+     "w": "eighteen",
+     "t": 0.2,
+     "d": 0.35
+    },
+    {
+     "w": "forty-five",
+     "t": 0.55,
+     "d": 0.7625
+    },
+    {
+     "w": "Texas",
+     "t": 1.5875,
+     "d": 0.4625
+    },
+    {
+     "w": "was",
+     "t": 2.0625,
+     "d": 0.1875
+    },
+    {
+     "w": "not",
+     "t": 2.25,
+     "d": 0.425
+    },
+    {
+     "w": "yet",
+     "t": 2.675,
+     "d": 0.1375
+    },
+    {
+     "w": "American",
+     "t": 2.8125,
+     "d": 0.5125
+    }
+   ]
+  },
+  "4": {
+   "narration": "It was its own republic. Nine years old, deep in debt, and running out of time.",
+   "start": 11.592,
+   "end": 16.656,
+   "duration": 5.064,
+   "startFrame": 348,
+   "endFrame": 500,
+   "frames": 152,
+   "words": [
+    {
+     "w": "It",
+     "t": 0.1,
+     "d": 0.05
+    },
+    {
+     "w": "was",
+     "t": 0.15,
+     "d": 0.1
+    },
+    {
+     "w": "its",
+     "t": 0.25,
+     "d": 0.125
+    },
+    {
+     "w": "own",
+     "t": 0.4375,
+     "d": 0.2
+    },
+    {
+     "w": "republic",
+     "t": 0.65,
+     "d": 0.6125
+    },
+    {
+     "w": "Nine",
+     "t": 1.6625,
+     "d": 0.275
+    },
+    {
+     "w": "years",
+     "t": 1.9375,
+     "d": 0.2625
+    },
+    {
+     "w": "old",
+     "t": 2.2,
+     "d": 0.3875
+    },
+    {
+     "w": "deep",
+     "t": 2.8375,
+     "d": 0.2375
+    },
+    {
+     "w": "in",
+     "t": 3.0875,
+     "d": 0.125
+    },
+    {
+     "w": "debt",
+     "t": 3.2125,
+     "d": 0.3625
+    },
+    {
+     "w": "and",
+     "t": 3.85,
+     "d": 0.1375
+    },
+    {
+     "w": "running",
+     "t": 3.9875,
+     "d": 0.225
+    },
+    {
+     "w": "out",
+     "t": 4.2125,
+     "d": 0.0625
+    },
+    {
+     "w": "of",
+     "t": 4.275,
+     "d": 0.05
+    },
+    {
+     "w": "time",
+     "t": 4.325,
+     "d": 0.3625
+    }
+   ]
+  },
+  "5": {
+   "narration": "That winter, a petition for a Baptist university reached its congress.",
+   "start": 17.056,
+   "end": 21.952,
+   "duration": 4.896,
+   "startFrame": 512,
+   "endFrame": 659,
+   "frames": 147,
+   "words": [
+    {
+     "w": "That",
+     "t": 0.1,
+     "d": 0.2125
+    },
+    {
+     "w": "winter",
+     "t": 0.325,
+     "d": 0.65
+    },
+    {
+     "w": "a",
+     "t": 1.225,
+     "d": 0.05
+    },
+    {
+     "w": "petition",
+     "t": 1.275,
+     "d": 0.5
+    },
+    {
+     "w": "for",
+     "t": 1.775,
+     "d": 0.15
+    },
+    {
+     "w": "a",
+     "t": 1.925,
+     "d": 0.0625
+    },
+    {
+     "w": "Baptist",
+     "t": 2.0,
+     "d": 0.5125
+    },
+    {
+     "w": "university",
+     "t": 2.525,
+     "d": 0.625
+    },
+    {
+     "w": "reached",
+     "t": 3.4375,
+     "d": 0.275
+    },
+    {
+     "w": "its",
+     "t": 3.7125,
+     "d": 0.1
+    },
+    {
+     "w": "congress",
+     "t": 3.825,
+     "d": 0.7125
+    }
+   ]
+  },
+  "6": {
+   "narration": "Behind it, three men. A frontier judge, Robert Emmett Bledsoe Baylor. A missionary, James Huckins. And a pastor, William Milton Tryon.",
+   "start": 22.352,
+   "end": 32.816,
+   "duration": 10.464,
+   "startFrame": 671,
+   "endFrame": 984,
+   "frames": 314,
+   "words": [
+    {
+     "w": "Behind",
+     "t": 0.1,
+     "d": 0.325
+    },
+    {
+     "w": "it",
+     "t": 0.425,
+     "d": 0.1375
+    },
+    {
+     "w": "three",
+     "t": 0.7625,
+     "d": 0.3125
+    },
+    {
+     "w": "men",
+     "t": 1.075,
+     "d": 0.375
+    },
+    {
+     "w": "A",
+     "t": 1.85,
+     "d": 0.05
+    },
+    {
+     "w": "frontier",
+     "t": 1.9,
+     "d": 0.6
+    },
+    {
+     "w": "judge",
+     "t": 2.5125,
+     "d": 0.525
+    },
+    {
+     "w": "Robert",
+     "t": 3.2875,
+     "d": 0.425
+    },
+    {
+     "w": "Emmett",
+     "t": 3.8625,
+     "d": 0.2625
+    },
+    {
+     "w": "Bledsoe",
+     "t": 4.125,
+     "d": 0.4625
+    },
+    {
+     "w": "Baylor",
+     "t": 4.5875,
+     "d": 0.425
+    },
+    {
+     "w": "A",
+     "t": 5.425,
+     "d": 0.0375
+    },
+    {
+     "w": "missionary",
+     "t": 5.4625,
+     "d": 0.625
+    },
+    {
+     "w": "James",
+     "t": 6.3375,
+     "d": 0.3625
+    },
+    {
+     "w": "Huckins",
+     "t": 6.7125,
+     "d": 0.6125
+    },
+    {
+     "w": "And",
+     "t": 7.725,
+     "d": 0.0875
+    },
+    {
+     "w": "a",
+     "t": 7.8125,
+     "d": 0.0625
+    },
+    {
+     "w": "pastor",
+     "t": 7.875,
+     "d": 0.725
+    },
+    {
+     "w": "William",
+     "t": 8.8625,
+     "d": 0.3375
+    },
+    {
+     "w": "Milton",
+     "t": 9.2,
+     "d": 0.3625
+    },
+    {
+     "w": "Tryon",
+     "t": 9.5625,
+     "d": 0.55
+    }
+   ]
+  },
+  "7": {
+   "narration": "The school was almost called San Jacinto. Then Milam.",
+   "start": 33.216,
+   "end": 36.696,
+   "duration": 3.48,
+   "startFrame": 996,
+   "endFrame": 1101,
+   "frames": 104,
+   "words": [
+    {
+     "w": "The",
+     "t": 0.1,
+     "d": 0.05
+    },
+    {
+     "w": "school",
+     "t": 0.15,
+     "d": 0.225
+    },
+    {
+     "w": "was",
+     "t": 0.375,
+     "d": 0.1375
+    },
+    {
+     "w": "almost",
+     "t": 0.5125,
+     "d": 0.25
+    },
+    {
+     "w": "called",
+     "t": 0.7625,
+     "d": 0.2625
+    },
+    {
+     "w": "San",
+     "t": 1.025,
+     "d": 0.275
+    },
+    {
+     "w": "Jacinto",
+     "t": 1.3,
+     "d": 0.75
+    },
+    {
+     "w": "Then",
+     "t": 2.45,
+     "d": 0.225
+    },
+    {
+     "w": "Milam",
+     "t": 2.6875,
+     "d": 0.425
+    }
+   ]
+  },
+  "8": {
+   "narration": "Only just before the final vote did the petitioners ask that it carry the judge's name.",
+   "start": 37.096,
+   "end": 42.016,
+   "duration": 4.92,
+   "startFrame": 1113,
+   "endFrame": 1260,
+   "frames": 148,
+   "words": [
+    {
+     "w": "Only",
+     "t": 0.1,
+     "d": 0.1625
+    },
+    {
+     "w": "just",
+     "t": 0.275,
+     "d": 0.2
+    },
+    {
+     "w": "before",
+     "t": 0.475,
+     "d": 0.25
+    },
+    {
+     "w": "the",
+     "t": 0.725,
+     "d": 0.0625
+    },
+    {
+     "w": "final",
+     "t": 0.8,
+     "d": 0.375
+    },
+    {
+     "w": "vote",
+     "t": 1.1875,
+     "d": 0.375
+    },
+    {
+     "w": "did",
+     "t": 1.75,
+     "d": 0.1125
+    },
+    {
+     "w": "the",
+     "t": 1.875,
+     "d": 0.075
+    },
+    {
+     "w": "petitioners",
+     "t": 1.9625,
+     "d": 0.65
+    },
+    {
+     "w": "ask",
+     "t": 2.625,
+     "d": 0.4
+    },
+    {
+     "w": "that",
+     "t": 3.0375,
+     "d": 0.0875
+    },
+    {
+     "w": "it",
+     "t": 3.125,
+     "d": 0.1
+    },
+    {
+     "w": "carry",
+     "t": 3.225,
+     "d": 0.45
+    },
+    {
+     "w": "the",
+     "t": 3.6875,
+     "d": 0.1
+    },
+    {
+     "w": "judge's",
+     "t": 3.8,
+     "d": 0.3625
+    },
+    {
+     "w": "name",
+     "t": 4.175,
+     "d": 0.3875
+    }
+   ]
+  },
+  "9": {
+   "narration": "On the first of February, President Anson Jones signed it into law.",
+   "start": 42.416,
+   "end": 47.048,
+   "duration": 4.632,
+   "startFrame": 1272,
+   "endFrame": 1411,
+   "frames": 139,
+   "words": [
+    {
+     "w": "On",
+     "t": 0.075,
+     "d": 0.0625
+    },
+    {
+     "w": "the",
+     "t": 0.1375,
+     "d": 0.075
+    },
+    {
+     "w": "first",
+     "t": 0.225,
+     "d": 0.375
+    },
+    {
+     "w": "of",
+     "t": 0.6,
+     "d": 0.0625
+    },
+    {
+     "w": "February",
+     "t": 0.675,
+     "d": 0.75
+    },
+    {
+     "w": "President",
+     "t": 1.6125,
+     "d": 0.4875
+    },
+    {
+     "w": "Anson",
+     "t": 2.1,
+     "d": 0.3875
+    },
+    {
+     "w": "Jones",
+     "t": 2.4875,
+     "d": 0.55
+    },
+    {
+     "w": "signed",
+     "t": 3.2375,
+     "d": 0.3625
+    },
+    {
+     "w": "it",
+     "t": 3.6125,
+     "d": 0.0625
+    },
+    {
+     "w": "into",
+     "t": 3.675,
+     "d": 0.15
+    },
+    {
+     "w": "law",
+     "t": 3.8375,
+     "d": 0.425
+    }
+   ]
+  },
+  "10": {
+   "narration": "Eleven months later the republic was gone, annexed into the United States.",
+   "start": 47.448,
+   "end": 52.56,
+   "duration": 5.112,
+   "startFrame": 1423,
+   "endFrame": 1577,
+   "frames": 153,
+   "words": [
+    {
+     "w": "Eleven",
+     "t": 0.0875,
+     "d": 0.375
+    },
+    {
+     "w": "months",
+     "t": 0.4625,
+     "d": 0.4375
+    },
+    {
+     "w": "later",
+     "t": 1.025,
+     "d": 0.3375
+    },
+    {
+     "w": "the",
+     "t": 1.375,
+     "d": 0.075
+    },
+    {
+     "w": "republic",
+     "t": 1.45,
+     "d": 0.5375
+    },
+    {
+     "w": "was",
+     "t": 2.0,
+     "d": 0.1875
+    },
+    {
+     "w": "gone",
+     "t": 2.1875,
+     "d": 0.475
+    },
+    {
+     "w": "annexed",
+     "t": 3.2625,
+     "d": 0.3375
+    },
+    {
+     "w": "into",
+     "t": 3.6125,
+     "d": 0.125
+    },
+    {
+     "w": "the",
+     "t": 3.7375,
+     "d": 0.05
+    },
+    {
+     "w": "United",
+     "t": 3.8,
+     "d": 0.3625
+    },
+    {
+     "w": "States",
+     "t": 4.1625,
+     "d": 0.5875
+    }
+   ]
+  },
+  "11": {
+   "narration": "It had chartered fifteen colleges. Fourteen closed, merged, or vanished.",
+   "start": 52.96,
+   "end": 58.768,
+   "duration": 5.808,
+   "startFrame": 1589,
+   "endFrame": 1763,
+   "frames": 174,
+   "words": [
+    {
+     "w": "It",
+     "t": 0.1,
+     "d": 0.05
+    },
+    {
+     "w": "had",
+     "t": 0.15,
+     "d": 0.175
+    },
+    {
+     "w": "chartered",
+     "t": 0.3375,
+     "d": 0.4375
+    },
+    {
+     "w": "fifteen",
+     "t": 0.7875,
+     "d": 0.525
+    },
+    {
+     "w": "colleges",
+     "t": 1.3125,
+     "d": 0.725
+    },
+    {
+     "w": "Fourteen",
+     "t": 2.5,
+     "d": 0.4125
+    },
+    {
+     "w": "closed",
+     "t": 2.9125,
+     "d": 0.6125
+    },
+    {
+     "w": "merged",
+     "t": 3.925,
+     "d": 0.5625
+    },
+    {
+     "w": "or",
+     "t": 4.7375,
+     "d": 0.075
+    },
+    {
+     "w": "vanished",
+     "t": 4.825,
+     "d": 0.6125
+    }
+   ]
+  },
+  "12": {
+   "narration": "One still operates under the charter it was given. Older than Texas itself.",
+   "start": 59.168,
+   "end": 63.8,
+   "duration": 4.632,
+   "startFrame": 1775,
+   "endFrame": 1914,
+   "frames": 139,
+   "words": [
+    {
+     "w": "One",
+     "t": 0.1,
+     "d": 0.2125
+    },
+    {
+     "w": "still",
+     "t": 0.325,
+     "d": 0.25
+    },
+    {
+     "w": "operates",
+     "t": 0.5875,
+     "d": 0.6125
+    },
+    {
+     "w": "under",
+     "t": 1.3,
+     "d": 0.1625
+    },
+    {
+     "w": "the",
+     "t": 1.4625,
+     "d": 0.0625
+    },
+    {
+     "w": "charter",
+     "t": 1.5375,
+     "d": 0.4
+    },
+    {
+     "w": "it",
+     "t": 1.9375,
+     "d": 0.0625
+    },
+    {
+     "w": "was",
+     "t": 2.0125,
+     "d": 0.125
+    },
+    {
+     "w": "given",
+     "t": 2.1375,
+     "d": 0.3375
+    },
+    {
+     "w": "Older",
+     "t": 2.875,
+     "d": 0.175
+    },
+    {
+     "w": "than",
+     "t": 3.05,
+     "d": 0.125
+    },
+    {
+     "w": "Texas",
+     "t": 3.175,
+     "d": 0.4625
+    },
+    {
+     "w": "itself",
+     "t": 3.6375,
+     "d": 0.625
+    }
+   ]
+  }
+ }
+}

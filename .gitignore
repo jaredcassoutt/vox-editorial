@@ -1,11 +1,6 @@
+.DS_Store
+node_modules/
+out/
+.venv/
 __pycache__/
 *.pyc
-.DS_Store
-# per-film working media - regenerate it, never commit it
-frames/
-sheets/
-clips/
-beats/
-elements/
-_work/
-_qc/

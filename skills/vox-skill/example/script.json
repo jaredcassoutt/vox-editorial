@@ -1,0 +1,54 @@
+{
+  "topic": "The founding of Baylor University",
+  "reversal": "Baylor is older than the state of Texas. It was chartered by the Republic of Texas, a sovereign country that ceased to exist eleven months later. Fifteen colleges got that charter. Baylor is the only one still operating under it.",
+  "beats": [
+    {
+      "id": 1,
+      "narration": "This university is older than the state it stands in."
+    },
+    {
+      "id": 2,
+      "narration": "It was chartered by a country that no longer exists."
+    },
+    {
+      "id": 3,
+      "narration": "In eighteen forty-five, Texas was not yet American."
+    },
+    {
+      "id": 4,
+      "narration": "It was its own republic. Nine years old, deep in debt, and running out of time."
+    },
+    {
+      "id": 5,
+      "narration": "That winter, a petition for a Baptist university reached its congress."
+    },
+    {
+      "id": 6,
+      "narration": "Behind it, three men. A frontier judge, Robert Emmett Bledsoe Baylor. A missionary, James Huckins. And a pastor, William Milton Tryon."
+    },
+    {
+      "id": 7,
+      "narration": "The school was almost called San Jacinto. Then Milam."
+    },
+    {
+      "id": 8,
+      "narration": "Only just before the final vote did the petitioners ask that it carry the judge's name."
+    },
+    {
+      "id": 9,
+      "narration": "On the first of February, President Anson Jones signed it into law."
+    },
+    {
+      "id": 10,
+      "narration": "Eleven months later the republic was gone, annexed into the United States."
+    },
+    {
+      "id": 11,
+      "narration": "It had chartered fifteen colleges. Fourteen closed, merged, or vanished."
+    },
+    {
+      "id": 12,
+      "narration": "One still operates under the charter it was given. Older than Texas itself."
+    }
+  ]
+}

@@ -1,142 +1,88 @@
-# vox-editorial
+# vox
 
-**A Claude Code skill that turns one researched topic into a finished vertical explainer
-film** — script, narration, cut-paper artwork, multiplane animation, captions and a music
-bed, assembled locally with ffmpeg.
+Two Claude Code skills for turning one researched topic into a finished
+narrated film. Same editorial register, two different ways of building it.
 
-Editorial register: it holds attention by being genuinely interesting, not by selling.
+| | `vox-skill` | `vox-editorial` |
+|---|---|---|
+| **Look** | Paper collage, halftone cut-outs, offset red marker stroke | Cut paper, saturated grounds, scissored subjects |
+| **Built with** | Remotion — React that renders video | Python + ffmpeg |
+| **Frame** | 1920×1080, or 1080×1920 on request | 1080×1920 |
+| **Charts, documents, newspapers** | Drawn in code, animate natively | Drawn locally with PIL |
+| **Sprites** | Public-domain images, lifted locally with Vision | Generated, one subject per sprite |
+| **Cost** | Free. Narration, music and every rebuild are local. | Sprite generation only |
 
----
-
-## It made a video about me, which I am definitely not being weird about 😂
-
-I pointed it at my own Twitter account and let it read my Highlights. It came back with a
-better summary of what I've been building than I'd have written myself, and then made a
-film out of it. Shameless self-promotion, but in my defence it was the machine's idea.
-
-![a film about JC Builds](docs/jc-builds.gif)
-
-*Full film: [`docs/jc-builds.mp4`](docs/jc-builds.mp4) · 49s · that's me, [@jc_builds](https://twitter.com/jc_builds) 👋*
-
-The opening line never says who it's about:
-
-> *"Turn on airplane mode and every AI app on your phone stops working. His keep going."*
-
-That's the skill's hook rule at work — withhold the subject, open on a premise the viewer
-can verify from their own pocket, then break it and don't settle the debt until the final
-line. The question it owes is *how is that possible*, and the closing beat answers exactly
-that.
-
-It found the through-line on its own, too: almost every "AI app" is a thin wrapper around
-someone else's server, and I keep shipping the opposite. The 4,096-token model planning a
-trip with no API calls, the coding agent that writes Swift on-device and repairs its own
-errors, the photo library matched against 164 landmarks. I didn't feed it any of that.
+Both are editorial journalism, not advertising: they earn the next five seconds
+by being genuinely interesting rather than by shouting. Both are free to run —
+narration comes from Edge neural TTS and everything else happens on your machine.
 
 ---
 
-## And here's one that isn't about me
+## `skills/vox-skill` — Remotion
 
-![Tokyo](docs/tokyo.gif)
+![the founding of Baylor University](skills/vox-skill/docs/baylor.gif)
 
-*Full film: [`docs/tokyo.mp4`](docs/tokyo.mp4) · 29s*
+*Full film: [`baylor-founding.mp4`](skills/vox-skill/docs/baylor-founding.mp4) · 65s · 1920×1080*
 
-> Tokyo started as a fishing village called Edo. By 1720 it had a million people — the
-> largest city on earth, bigger than London, bigger than Paris. And almost all of it was
-> built of wood and paper. It burned down roughly every twenty years. Each time, they
-> rebuilt it. You are walking on the fourth or fifth version of the same city.
+Everything in that frame except the three portraits is drawn in code: the state
+outline, the flag, the charter, the wax seals, the fifteen-card grid, the stamps,
+the timeline. The portraits are public-domain scans lifted with the macOS Vision
+framework and screened into halftone locally.
 
-![stills from other films in the series](docs/stills.jpg)
+![stills](skills/vox-skill/docs/stills.jpg)
 
----
+The thing that makes it work is that **the narration is the clock**. The
+voiceover is generated first, and every scene length and every animation cue is
+derived from its word boundaries — so a scene starts when a word is spoken, not
+when a number in a file says so. Change the voice and the whole film re-times
+itself with one command.
 
-## The one idea this is built on
+It also ships a music generator. A real documentary cue was measured to find what
+the genre actually is, spectrally, and the bed is synthesised to match and then
+sidechain-ducked under the narration.
 
-**Generate elements, not posters.**
-
-Most collage pipelines generate a finished composition per beat and then animate pieces
-of it. It looks flat every single time — and the reason isn't the motion. The original
-composition is still sitting underneath, so a "moving" element is sliding over an
-identical copy of itself. Nothing can move *behind* anything, because there is no behind.
-
-So here the image model never draws a composition. It draws the **subjects only**, spaced
-apart on a flat magenta field, which is keyed to true alpha. The ground, the confetti, the
-tape, the newsprint and the headline are all drawn locally. The scene is then assembled
-onto an empty sheet across depth planes:
-
-```
-0.05  ground              barely moves
-0.20  clippings, tape
-0.40  rear confetti
-0.60  secondary subject
-0.80  primary subject
-1.00  front confetti      largest, fastest
-1.15  headline            nearest the lens
-```
-
-Depth drives three things at once: parallax rate against the camera, drift amplitude, and
-draw order. That differential is what the eye reads as space. Every layer also carries its
-own entrance, drift, breath and rotation phase, so no two elements ever move together. A
-typical beat runs **28–36 independent layers**.
+[Read the skill →](skills/vox-skill/)
 
 ---
 
-## What it costs
+## `skills/vox-editorial` — ffmpeg
 
-Almost nothing, by design.
+![a film about JC Builds](skills/vox-editorial/docs/jc-builds.gif)
 
-| stage | cost |
-| --- | --- |
-| research + script | free |
-| narration | **free** — Edge neural TTS, no API key |
-| subject sprites | the only real spend, and the bundled library covers most films |
-| grounds, banners, confetti, tape, newsprint, numerals | **free** — drawn locally |
-| animation, captions, mixing, mastering | **free** — local Python + ffmpeg |
-| every rebuild after the first | **free** |
+*Full film: [`jc-builds.mp4`](skills/vox-editorial/docs/jc-builds.mp4) · 49s*
 
-The bundled `library/` ships 18 tagged, alpha-keyed sprites. Check it before generating
-anything: **cache what is expensive, draw what is cheap.**
+Generates **elements, not posters**. The image model only ever draws subjects,
+spaced out on a keyable field; the ground, the tape, the newsprint and the
+headline are drawn locally and composed across depth planes. Depth then drives
+parallax, drift and draw order at once, which is what the eye reads as space.
+
+![Tokyo](skills/vox-editorial/docs/tokyo.gif)
+
+[Read the skill →](skills/vox-editorial/)
 
 ---
 
-## Quick start
+## Install
 
-Requirements: `ffmpeg`, `ffprobe`, Python 3.10+ with `pillow` and `numpy`.
-
-Free narration:
+Copy the one you want into your skills directory:
 
 ```bash
-uv venv ~/.local/tts-venv --python 3.12
-source ~/.local/tts-venv/bin/activate && uv pip install edge-tts
+git clone https://github.com/jaredcassoutt/vox-editorial.git
+cp -R vox-editorial/skills/vox-skill ~/.claude/skills/
+# or
+cp -R vox-editorial/skills/vox-editorial ~/.claude/skills/
 ```
 
-Drop the folder into `~/.claude/skills/` and ask for an explainer about anything. The
-skill handles research → script → narration → artwork → animation → assembly.
+> **Layout note.** This repo used to hold `vox-editorial` at the root. It now
+> holds both skills under `skills/`. If you installed before, re-copy from the
+> new path.
 
----
+## Requirements
 
-## Things it learned the hard way
-
-Each of these was a visible defect in a real cut before it became a rule.
-
-- **A continuation cut must not replay its effect.** Split one narration line across two
-  shots and the second must render the *settled* state, or the reveal runs twice.
-- **Lock wide headline banners.** Let a decomposer split a headline into pieces that drift
-  independently and the layout appears to fall apart.
-- **Measure text the way you draw it.** Per-letter colouring loses kerning, so a line
-  measured with `textlength(whole_string)` overruns the paper it sits on.
-- **The ground never fades in**, or the beat opens on black.
-- **Master to −14 LUFS.** Platforms normalise, so a quiet master gets pushed up along with
-  its noise floor.
-- **Verify sourced imagery is on-topic.** Image search returns confidently wrong results —
-  a building in the wrong country, a stamp *of* a thing instead of the thing.
-- **Grade with numbers, not vibes.** Length, seconds-per-cut, audio peak and RMS,
-  near-silent windows. Each catches something the eye misses.
-
----
+Both need `ffmpeg` and Python 3 with `numpy`, `pillow` and `edge-tts`.
+`vox-skill` also needs Node and, for local subject cut-outs, macOS with Xcode
+command line tools.
 
 ## Licence
 
-MIT. Forked from [vox-explainer-skill](https://github.com/CK42BB/vox-explainer-skill) by
-Kingsley, also MIT — see [`NOTICE`](NOTICE) for exactly what's inherited and what's new.
-The short version: the premise is theirs, the artwork inversion and everything downstream
-of it is mine.
+MIT. See [`LICENSE`](skills/vox-editorial/LICENSE) and [`NOTICE`](skills/vox-editorial/NOTICE).
